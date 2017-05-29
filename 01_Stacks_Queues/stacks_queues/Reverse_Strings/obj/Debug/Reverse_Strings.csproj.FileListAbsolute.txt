@@ -1,0 +1,6 @@
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\Reverse_Strings\bin\Debug\Reverse_Strings.exe.config
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\Reverse_Strings\bin\Debug\Reverse_Strings.exe
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\Reverse_Strings\bin\Debug\Reverse_Strings.pdb
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\Reverse_Strings\obj\Debug\Reverse_Strings.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\Reverse_Strings\obj\Debug\Reverse_Strings.exe
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\Reverse_Strings\obj\Debug\Reverse_Strings.pdb

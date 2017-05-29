@@ -1,0 +1,1 @@
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\DecimalToBinaryConverter\bin\Debug\DecimalToBinaryConverter.exe.config
