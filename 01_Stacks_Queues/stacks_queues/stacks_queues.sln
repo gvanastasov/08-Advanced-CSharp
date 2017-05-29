@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingBrackets", "Matchin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotPotato", "HotPotato\HotPotato.csproj", "{E580AF55-613A-4E17-883A-C8D741C5BA83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathPotato", "MathPotato\MathPotato.csproj", "{137B1A2B-4C85-49C9-BA55-4D24A534FEF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E580AF55-613A-4E17-883A-C8D741C5BA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E580AF55-613A-4E17-883A-C8D741C5BA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E580AF55-613A-4E17-883A-C8D741C5BA83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{137B1A2B-4C85-49C9-BA55-4D24A534FEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137B1A2B-4C85-49C9-BA55-4D24A534FEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137B1A2B-4C85-49C9-BA55-4D24A534FEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137B1A2B-4C85-49C9-BA55-4D24A534FEF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

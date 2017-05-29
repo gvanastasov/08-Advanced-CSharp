@@ -1,0 +1,5 @@
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\MathPotato\bin\Debug\MathPotato.exe.config
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\MathPotato\bin\Debug\MathPotato.exe
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\MathPotato\bin\Debug\MathPotato.pdb
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\MathPotato\obj\Debug\MathPotato.exe
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\MathPotato\obj\Debug\MathPotato.pdb
