@@ -1,0 +1,6 @@
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\MatchingBrackets\bin\Debug\MatchingBrackets.exe.config
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\MatchingBrackets\bin\Debug\MatchingBrackets.exe
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\MatchingBrackets\bin\Debug\MatchingBrackets.pdb
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\MatchingBrackets\obj\Debug\MatchingBrackets.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\MatchingBrackets\obj\Debug\MatchingBrackets.exe
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\MatchingBrackets\obj\Debug\MatchingBrackets.pdb
