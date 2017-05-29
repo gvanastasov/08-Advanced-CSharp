@@ -1,0 +1,5 @@
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\HotPotato\bin\Debug\HotPotato.exe.config
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\HotPotato\bin\Debug\HotPotato.exe
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\HotPotato\bin\Debug\HotPotato.pdb
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\HotPotato\obj\Debug\HotPotato.exe
+C:\Users\Georgi\Documents\Softuni\08 Advanced CSharp\01_Stacks_Queues\stacks_queues\HotPotato\obj\Debug\HotPotato.pdb
