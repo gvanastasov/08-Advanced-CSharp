@@ -15,7 +15,13 @@ namespace _11_ParkingSystem
             var rows = int.Parse(dim[0]);
             var cols = int.Parse(dim[1]);
 
-            var parkingLot = new bool[rows, cols];
+            // rows -> taken places
+            var parkingLot = new List<HashSet<int>>();
+
+            for (int i = 0; i < rows; i++)
+            {
+                parkingLot.Add(new HashSet<int>());
+            }
 
             var carMoves = new Queue<string>();
 
@@ -42,25 +48,25 @@ namespace _11_ParkingSystem
                 while (car_r != target_r)
                 {
                     var moveDir = Math.Sign(target_r - entryRow);
-                    Console.WriteLine($"Movinging in rows: {moveDir}");
+                    //Console.WriteLine($"Movinging in rows: {moveDir}");
                     car_r += 1 * moveDir;
                     moves++;
                 }
 
 
-                if(parkingLot[car_r, target_c] == false)
+                if(parkingLot[target_r].Contains(target_c) == false)
                 {
-                    Console.WriteLine("Spot was free");
+                    //Console.WriteLine("Spot was free");
                     while (car_c != target_c)
                     {
-                        Console.WriteLine($"Movinging in cols");
+                        //Console.WriteLine($"Movinging in cols");
 
                         car_c++;
                         moves++;
                     }
 
-                    parkingLot[car_r, car_c] = true;
-                    Console.WriteLine($"Moves: {moves}");
+                    parkingLot[target_r].Add(car_c);
+                    //Console.WriteLine($"Moves: {moves}");
 
                     carMoves.Enqueue(moves.ToString());
                 }
@@ -74,14 +80,14 @@ namespace _11_ParkingSystem
 
                     int? spotIdx = null;
 
-                    while (leftIdx >= 1 || rightIdx < parkingLot.GetLength(1))
+                    while (leftIdx >= 1 || rightIdx <= cols)
                     {
                         if(checkLeft)
                         {
-                            var isFree = leftIdx >= 1 && parkingLot[car_r, leftIdx] == false;
+                            var isFree = leftIdx >= 1 && parkingLot[target_r].Contains(leftIdx) == false;
                             if(isFree)
                             {
-                                Console.WriteLine($"found free to the left: {leftIdx}");
+                                //Console.WriteLine($"found free to the left: {leftIdx}");
                                 spotIdx = leftIdx;
                                 break;
                             }
@@ -89,10 +95,11 @@ namespace _11_ParkingSystem
                         }
                         else
                         {
-                            var isFree = rightIdx < parkingLot.GetLength(1) && parkingLot[car_r, rightIdx] == false;
+                            var isFree = rightIdx < cols
+                                && parkingLot[target_r].Contains(rightIdx) == false;
                             if(isFree)
                             {
-                                Console.WriteLine($"found free to the right: {rightIdx}");
+                                //Console.WriteLine($"found free to the right: {rightIdx}");
                                 spotIdx = rightIdx;
                                 break;
                             }
@@ -107,17 +114,18 @@ namespace _11_ParkingSystem
                         var moveDir = Math.Sign(spotIdx.Value - car_c);
                         while (car_c != spotIdx)
                         {
-                            Console.WriteLine($"Movinging in cols");
+                            //Console.WriteLine($"Movinging in cols");
 
                             car_c += 1 * moveDir;
                             moves++;
                         }
-                        parkingLot[car_r, car_c] = true;
+
+                        parkingLot[car_r].Add(spotIdx.Value);
 
                         carMoves.Enqueue(moves.ToString());
 
-                        Console.WriteLine($"Car parked at: {car_r}, {spotIdx.Value}");
-                        Console.WriteLine($"Moves: {moves}");
+                        //Console.WriteLine($"Car parked at: {car_r}, {spotIdx.Value}");
+                        //Console.WriteLine($"Moves: {moves}");
                     }
                     else
                     {
@@ -125,15 +133,15 @@ namespace _11_ParkingSystem
                     }
                 }
 
-                for (int r = 0; r < parkingLot.GetLength(0); r++)
-                {
-                    for (int c = 0; c < parkingLot.GetLength(1); c++)
-                    {
-                        Console.Write((parkingLot[r, c] ? "1" : "0") + " ");
-                    }
-                    Console.WriteLine();
-                }
-                Console.WriteLine();
+                //foreach (var r in parkingLot)
+                //{
+                //    foreach (var l in r)
+                //    {
+                //        Console.Write(l);
+                //    }
+                //    Console.WriteLine();
+                //}
+                //Console.WriteLine();
             }
 
             while(carMoves.Count > 0)
