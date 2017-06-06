@@ -8,6 +8,6 @@ namespace Exercises
 {
     public static class Constants
     {
-        public const string lp_default = "../../../Resources/lp_default.txt";
+        public const string lp_default = "../../../Resources/00_lpdefault.txt";
     }
 }
