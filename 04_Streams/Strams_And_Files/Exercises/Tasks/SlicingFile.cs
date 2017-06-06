@@ -113,7 +113,7 @@ namespace Exercises.Tasks
             }
         }
 
-        // Somethings messing up with reassembling :( might be the encoding, no time to check it
+        // Somethings messing up with reassembling :( might be the encoding, no time 
         private void Assemble(List<string> files, string destination)
         {
             using (var dest = new FileStream($"{destination}", FileMode.OpenOrCreate))
