@@ -102,10 +102,18 @@ namespace Client
 
         private static void InitMenu()
         {
-            foreach (var taskType in Utils.GetDerivedTasks())
-            {
-                tasks.Add(Activator.CreateInstance(taskType) as TaskBase);
-            }
+            // todo: need to write attributes, for proper
+            // UI ordering, so for now manually adding them
+
+            //foreach (var taskType in Utils.GetDerivedTasks())
+            //{
+            //    tasks.Add(Activator.CreateInstance(taskType) as TaskBase);
+            //}
+
+            tasks.Add(new OddLines());
+            tasks.Add(new LineNumbers());
+            tasks.Add(new WordCount());
+            tasks.Add(new CopyBinaryFile());
 
             Console.CursorVisible = false;
             RenderMenu();
