@@ -1,4 +1,5 @@
-﻿using Exercises.Tasks;
+﻿using Exercises;
+using Exercises.Tasks;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,12 +15,8 @@ namespace Client
 
         static void Main()
         {
-            tasks.Add(new OddLines());
-            tasks.Add(new LineNumbers());
+            InitMenu();
 
-            Console.CursorVisible = false;
-
-            RenderMenu();
             while (true)
             {
                 ParseInput();
@@ -75,7 +72,7 @@ namespace Client
             }
             catch(Exception e)
             {
-                Console.Write($"{Environment.NewLine}[Error] - {e.GetType()}");
+                Console.Write($"{Environment.NewLine}[Error] - {e.Message}");
             }
             finally
             {
@@ -101,6 +98,17 @@ namespace Client
 
             Console.BackgroundColor = ConsoleColor.Black;
             Console.WriteLine("\nPress [enter] to execute or [esc] to terminate the program.");
+        }
+
+        private static void InitMenu()
+        {
+            foreach (var taskType in Utils.GetDerivedTasks())
+            {
+                tasks.Add(Activator.CreateInstance(taskType) as TaskBase);
+            }
+
+            Console.CursorVisible = false;
+            RenderMenu();
         }
 
         private static void UpdateMenu()

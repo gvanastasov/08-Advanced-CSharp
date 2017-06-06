@@ -1,0 +1,6 @@
+heloo
+is - 3
+heloo
+quick - 2
+heloo
+fault - 1

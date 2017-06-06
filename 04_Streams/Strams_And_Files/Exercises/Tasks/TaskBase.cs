@@ -22,6 +22,5 @@ namespace Exercises.Tasks
         }
 
         public abstract void Execute();
-
     }
 }

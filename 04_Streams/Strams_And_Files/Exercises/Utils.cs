@@ -5,6 +5,7 @@
     using System.IO;
     using System.Linq;
     using System.Text.RegularExpressions;
+    using Tasks;
 
     public static class Utils
     {
@@ -27,6 +28,15 @@
                     }
                 }
             }
+        }
+
+        public static IEnumerable<Type> GetDerivedTasks()
+        {
+            return AppDomain
+                .CurrentDomain
+                .GetAssemblies()
+                .SelectMany(assembly => assembly.GetTypes())
+                .Where(type => type.IsSubclassOf(typeof(TaskBase)));
         }
     }
 }
