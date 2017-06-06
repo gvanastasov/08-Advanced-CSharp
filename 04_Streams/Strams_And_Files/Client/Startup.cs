@@ -114,6 +114,7 @@ namespace Client
             tasks.Add(new LineNumbers());
             tasks.Add(new WordCount());
             tasks.Add(new CopyBinaryFile());
+            tasks.Add(new SlicingFile());
 
             Console.CursorVisible = false;
             RenderMenu();
