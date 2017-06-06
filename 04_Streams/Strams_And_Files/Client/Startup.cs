@@ -1,4 +1,4 @@
-﻿using Exercises;
+﻿using Exercises.Tasks;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,8 +15,7 @@ namespace Client
         static void Main()
         {
             tasks.Add(new OddLines());
-            tasks.Add(new OddLines());
-            tasks.Add(new OddLines());
+            tasks.Add(new LineNumbers());
 
             Console.CursorVisible = false;
 
