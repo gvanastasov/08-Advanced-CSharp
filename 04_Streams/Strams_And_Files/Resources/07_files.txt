@@ -1,0 +1,16 @@
+.txt
+--00_lpdefault.txt.txt - 1kb
+--02_lp.txt.txt - 1kb
+--03_result.txt.txt - 0kb
+--03_text.txt.txt - 0kb
+--03_words.txt.txt - 0kb
+--07_files.txt.txt - 0kb
+.html
+--error.html.html - 0kb
+--index.html.html - 0kb
+--info.html.html - 0kb
+.png
+--04_arrows.png.png - 7kb
+--04_arrows_copy.png.png - 7kb
+.jpg
+--05_tex.jpg.jpg - 396kb

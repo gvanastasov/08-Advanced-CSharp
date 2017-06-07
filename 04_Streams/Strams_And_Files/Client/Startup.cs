@@ -116,6 +116,7 @@ namespace Client
             tasks.Add(new CopyBinaryFile());
             tasks.Add(new SlicingFile());
             tasks.Add(new Zipping());
+            tasks.Add(new DirectoryTraversal());
 
             Console.CursorVisible = false;
             RenderMenu();
