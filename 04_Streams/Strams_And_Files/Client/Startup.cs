@@ -1,4 +1,5 @@
 ﻿using Exercises;
+using Exercises.SimpleHttpServer;
 using Exercises.Tasks;
 using System;
 using System.Collections.Generic;
@@ -118,6 +119,7 @@ namespace Client
             tasks.Add(new Zipping());
             tasks.Add(new DirectoryTraversal());
             tasks.Add(new FullDirectoryTraversal());
+            tasks.Add(new HttpServer());
 
             Console.CursorVisible = false;
             RenderMenu();
