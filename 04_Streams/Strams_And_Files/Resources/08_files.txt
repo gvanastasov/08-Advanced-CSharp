@@ -1,0 +1,82 @@
+.cs
+--Startup.cs.cs - 3kb
+--TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs.cs - 0kb
+--TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs.cs - 0kb
+--TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs.cs - 0kb
+--AssemblyInfo.cs.cs - 1kb
+--Constants.cs.cs - 0kb
+--Utils.cs.cs - 1kb
+--TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs.cs - 0kb
+--TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs.cs - 0kb
+--TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs.cs - 0kb
+--AssemblyInfo.cs.cs - 1kb
+--CopyBinaryFile.cs.cs - 1kb
+--DirectoryTraversal.cs.cs - 1kb
+--FullDirectoryTraversal.cs.cs - 1kb
+--LineNumbers.cs.cs - 1kb
+--OddLines.cs.cs - 0kb
+--SlicingFile.cs.cs - 4kb
+--TaskBase.cs.cs - 0kb
+--WordCount.cs.cs - 1kb
+--Zipping.cs.cs - 3kb
+.txt
+--Client.csproj.FileListAbsolute.txt.txt - 0kb
+--Exercises.csproj.FileListAbsolute.txt.txt - 0kb
+--00_lpdefault.txt.txt - 1kb
+--02_lp.txt.txt - 1kb
+--03_result.txt.txt - 0kb
+--03_text.txt.txt - 0kb
+--03_words.txt.txt - 0kb
+--07_files.txt.txt - 0kb
+.pdb
+--Client.pdb.pdb - 15kb
+--Exercises.pdb.pdb - 45kb
+--Client.pdb.pdb - 15kb
+--Exercises.pdb.pdb - 45kb
+--Exercises.pdb.pdb - 45kb
+.cache
+--Client.csprojResolveAssemblyReference.cache.cache - 6kb
+--DesignTimeResolveAssemblyReferencesInput.cache.cache - 6kb
+--DesignTimeResolveAssemblyReferencesInput.cache.cache - 6kb
+--Exercises.csprojResolveAssemblyReference.cache.cache - 1kb
+.config
+--App.config.config - 0kb
+--Client.exe.config.config - 0kb
+--Client.vshost.exe.config.config - 0kb
+.exe
+--Client.exe.exe - 6kb
+--Client.vshost.exe.exe - 22kb
+--Client.exe.exe - 6kb
+.dll
+--Exercises.dll.dll - 17kb
+--Exercises.dll.dll - 17kb
+--Exercises.dll.dll - 17kb
+.jpg
+--05_tex.jpg.jpg - 396kb
+--05_tex-assembled.jpg.jpg - 388kb
+---unzipped.jpg.jpg - 396kb
+.html
+--error.html.html - 0kb
+--index.html.html - 0kb
+--info.html.html - 0kb
+.csproj
+--Client.csproj.csproj - 2kb
+--Exercises.csproj.csproj - 2kb
+.png
+--04_arrows.png.png - 7kb
+--04_arrows_copy.png.png - 7kb
+.gz
+---zipped.gz.gz - 391kb
+--tex-zipped.gz.gz - 391kb
+.sln
+--Strams_And_Files.sln.sln - 1kb
+.suo
+--.suo.suo - 59kb
+.manifest
+--Client.vshost.exe.manifest.manifest - 0kb
+.jpg-part-0
+--05_tex.jpg-part-0.jpg-part-0 - 136kb
+.jpg-part-1
+--05_tex.jpg-part-1.jpg-part-1 - 136kb
+.jpg-part-2
+--05_tex.jpg-part-2.jpg-part-2 - 116kb

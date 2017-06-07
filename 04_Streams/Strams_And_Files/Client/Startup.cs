@@ -117,6 +117,7 @@ namespace Client
             tasks.Add(new SlicingFile());
             tasks.Add(new Zipping());
             tasks.Add(new DirectoryTraversal());
+            tasks.Add(new FullDirectoryTraversal());
 
             Console.CursorVisible = false;
             RenderMenu();
