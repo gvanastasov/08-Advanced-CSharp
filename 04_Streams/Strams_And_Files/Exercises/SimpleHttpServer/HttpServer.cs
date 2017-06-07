@@ -14,6 +14,7 @@
     {
         private const int PortNumber = 8081;
 
+        // HAS NO ROUTING and only shows index :)
         private const string indexPage = "../../../Resources/index.html";
 
         public enum ResponseStatusCode
@@ -37,7 +38,8 @@
                     byte[] request = new byte[4096];
                     int readBytes = stream.Read(request, 0, 4096);
                     Console.WriteLine($"{new string('-', 3)} Request {new string('-', 50)}");
-                    Console.WriteLine(Encoding.UTF8.GetString(request, 0, readBytes));
+                    var requestString = Encoding.UTF8.GetString(request, 0, readBytes);
+                    Console.WriteLine(requestString);
                     Console.WriteLine($"{new string('-', 50)}");
                     Console.WriteLine();
 
@@ -46,9 +48,10 @@
                     var contentBytes = Encoding.UTF8.GetBytes(content);
 
                     var responseHeader = new StringBuilder();
-                    responseHeader.AppendLine($"HTTP/1.0 {(int)ResponseStatusCode.Ok} {Enum.GetName(typeof(ResponseStatusCode), ResponseStatusCode.Ok)}");
+                    responseHeader.AppendLine($"HTTP/1.1 {(int)ResponseStatusCode.Ok} {Enum.GetName(typeof(ResponseStatusCode), ResponseStatusCode.Ok)}");
                     responseHeader.AppendLine($"Content-type: text/html");
                     responseHeader.AppendLine("Content-Length: " + contentBytes.Length);
+                    responseHeader.AppendLine();
 
                     var responseBytes = Encoding.UTF8.GetBytes(responseHeader.ToString());
 
